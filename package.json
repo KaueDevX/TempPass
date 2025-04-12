@@ -1,0 +1,36 @@
+{
+  "name": "temppass",
+  "version": "1.0.0",
+  "description": "O TempPass é um sistema que permite aos usuários compartilharem o acesso a suas contas ou dados de forma temporária e segura, sem a necessidade senha permanente.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaueDevX/TempPass.git"
+  },
+  "keywords": [
+    "TempPass",
+    "Temporary Password",
+    "Password"
+  ],
+  "author": "KaueDevX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaueDevX/TempPass/issues"
+  },
+  "homepage": "https://github.com/KaueDevX/TempPass#readme",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "nodemailer": "^6.10.0"
+  }
+}
